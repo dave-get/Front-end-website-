@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: rgba(23, 20, 20, 1);
+    border-right-width:1px;
+    border-right-color:rgba(198, 192, 192,0.1);
+    border-right-style:solid;
+    position:fixed;
+    top:50px;
+    left:0px;
+    bottom:0px;
+    width:80px;
+    z-index:2;
+}

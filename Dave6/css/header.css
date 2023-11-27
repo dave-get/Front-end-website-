@@ -1,0 +1,120 @@
+.header{
+    background-color: rgba(23, 20, 20, 1);
+    border-bottom-width:1px;
+    border-bottom-color:rgba(227, 223, 223,0);
+    border-bottom-style:solid;
+    display:flex;
+    flex-direction:row;
+    height:50px;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+.left-align{
+    width:200px;
+    margin-right:100px;
+    display:flex;
+    align-items:center;
+}
+.middle-align{
+    display:flex;
+    flex:1;
+    margin-right:80px;
+    max-width:500px;
+    align-items:center;
+}
+.right-align{
+    margin-right:10px;
+    width:200px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-shrink:0;
+}
+span{
+    position: absolute;
+    left:460px;
+    top:15px;
+}
+.menu-logo{
+    height:30px;
+    margin:0 20px 0 10px;
+}
+.youtube-logo{
+    height:30px;
+}
+.search-icon{
+    background-color:rgb(232, 235, 237);
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(169, 163, 163);
+    height:39px;
+    width:60px;
+    margin-left:-1px;
+    cursor: pointer;
+}
+.mic{
+    background-color:rgb(244, 247, 248);
+    cursor: pointer;
+    margin-left:20px;
+    border-radius:20px;
+    border:none;
+    height:40px;
+    width:40px;
+}
+.mic-img{
+    height:35px;
+    width:30px;
+}
+.search-parent{
+    display:flex;
+    flex:1;
+}
+#search{
+    flex:1;
+    height:39px;
+    border-style:solid;
+    border-width:1px;
+    border-radius:2px;
+    border-color: rgb(169, 163, 163);
+    box-shadow: inset 1px 2px 3px
+    rgba(0,0,0, 0.05);
+    font-size:15px;
+    padding:15px;
+    width:0;
+}
+.srch-img{
+    height:35px;
+    width:30px;
+}
+.upload-icon{
+    height:25px;
+}
+.youtube-apps{
+    height:25px;
+}
+.notification{
+    height:25px;
+}
+.notification-icons{
+    position:relative;
+}
+.notification-number{
+    background-color:rgb(190, 15, 15);
+    color:white;
+    position:absolute;
+    top:-3px;
+    right:-5px;
+    padding:3px 6px 3px 6px;
+    border-radius:15px;
+    font-size:11px;
+    font-family:arial;
+}
+.profile-pic{
+    height:35px;
+    border-radius:16px;
+}
+
